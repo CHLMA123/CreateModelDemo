@@ -1,0 +1,8 @@
+iOS 运行时获取类的所有属性
+提出问题：如何使用runtime获取该类中类别的属性名称？
+解决方法：详见Demo。
+
+UIView的ExclusiveTouch属性
+
+exclusiveTouch默认是NO，如果设置为YES则当前UIView会独占整个Touch事件。
+具体来说就是如果UIView设置了exclusiveTouch属性为YES,则当这个UIView成为第一响应者时，在手指离开屏幕前其他view不会响应任何touch事件。
